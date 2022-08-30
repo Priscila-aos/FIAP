@@ -1,0 +1,48 @@
+* {
+    margin: 5px;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: rgb(207, 211, 201);
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(10, 154, 144);
+    margin-left: 11px;
+}
+p {
+    color: black;
+    font-size: 18px;
+}
+
+.container {
+   /* color: rgb(23, 184, 179);*/
+    width: 300px;
+    height: auto;  
+    /* margin: 20px 40px 60px 100px; */
+    margin: 10px;
+    border: 3px solid black;
+    padding: 5px;
+    font-size: 18px;
+    
+}
+
+.background {
+    background-color:rgb(21, 106, 180);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 800;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+

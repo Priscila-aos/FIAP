@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+   
+</head>
+
+<body>
+    
+    <form action="endereço de um script" method="post" id="dados" name="dados"></form>
+        <fieldset class="forms">
+            <legend id="titulo">Cadastre um ponto turistico</legend>
+            <!--input para texto-->
+            <p>
+                <label for="user">Nome:</label>
+                <input type="text" id="user" placeholder="nome do local" autofocus>
+            </p>
+
+            <p>
+                <label for="user">Endereço:</label>
+                <input type="text" id="user" placeholder="localização">
+            </p>
+             
+            <!--input para radios-->            
+            <p>
+                <label for="">Valor para conhecer o local:</label>
+                
+                <input type="radio" name="periodo" id="periodoManha">
+                <label for="periodoManh">gratuito</label>
+                
+                <input type="radio" name="periodo" id="periodoTarde">
+                <label for="periodoTarde">pago</label>
+            </p>
+            <!--input para valor/número-->
+            <p>
+                <label for="number">Se for pago, qual o preço?</label>
+                <input type="number" id="number" placeholder="R$ 0,00">
+            </p>
+            <!--input para data-->
+            <p>
+                <label for="hora">Data e hora de abertura do local:</label>
+                <input type="datetime-local" id="dataHora">
+            </p>
+
+            <p>
+                <label for="semana">Dias da semana para visitação:</label>
+                <input type="week" id="semana">
+            </p>
+            <!--input para radios-->
+            <p>
+                <label for="">Qual melhor horário para visitar o local:</label> <br>
+                <input type="checkbox" name="" id="opcaoM">
+                <label for="opcaoM">Manhã</label>
+
+                <input type="checkbox" name="" id="opcaoT">
+                <label for="opcaoT">Tarde</label>
+
+                <input type="checkbox" name="" id="OpcaoN">
+                <label for="opcaoN">Noite</label>
+            </p>
+            
+            <p>
+                <button type="submit">Enviar</button>
+            </p>
+        </fieldset>
+    
+
+</body>
+</html>
